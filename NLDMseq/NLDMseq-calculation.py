@@ -18,7 +18,7 @@ import Extract_GeneData
 #LDA 
 import lda
 
-DEBUG=True  
+DEBUG=False  
  
 if DEBUG == True: 
         import pdb 
@@ -175,8 +175,8 @@ print seq_depth;
 print 'Calculate... ' 
 lda.lda_expre(work_floder_path,seq_depth,output_path)
 
-# lda.removeFileInFirstDir(work_floder_path)
-# shutil.rmtree(work_floder_path)    
+lda.removeFileInFirstDir(work_floder_path)
+shutil.rmtree(work_floder_path)    
 
 stop_time=time.strftime('%Y-%m-%d-%H-%M-%S',time.localtime(time.time()))
 print('start time:%s\n' %start_time)
