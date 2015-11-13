@@ -27,7 +27,7 @@ Users can ask technical questions by sending emails to Xuejun Liu (xuejun.liu@nu
 	Mac OS X (Mac OS X 10.8 5 or higher)
 >* Python 2.7 
 >* GUN Scientific Library GCC 4.8.1 or higher(http://www.gnu.org/software/gsl/)
->* Python package: parallel python (pp)(http://www.parallelpython.com/) 
+>* Python package: numpy,parallel python (pp)(http://www.parallelpython.com/) 
 >* Bowtie2
 
 ###NOTE: 
