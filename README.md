@@ -79,7 +79,7 @@ If the paired-end reads are processed, the Bowtie command should be listed as
 ```shell
 $ bowtie2 –t–f -k 20 -p 4 --no-sq --no-head -x ensGene.ref_transcript.index -1 raw_data.fasta -2 raw_data.fasta -S align_reads.output
 ```
-
+### Note: NLDMseq is designed for SAM file ,so `-S` parameter is necessary.
 The above transcriptome reference sequence can be downloaded from UCSC or Ensembl website.
 
 >* Step 2. Calculate expression values with NLDMseq
